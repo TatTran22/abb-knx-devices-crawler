@@ -1,0 +1,296 @@
+[
+  {
+    "key": 14,
+    "id": "2CDG110162R0011",
+    "title": "\r\n\tABB SA/S12.16.2.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S12.16.2.1",
+      "productId": "2CDG110162R0011",
+      "ean": "4016779877763",
+      "catalogDescription": "SA/S12.16.2.1 Switch Actuator, 12-fold, 16 A, MDRC",
+      "longDescription": "Uses potential free contacts to switch 12 independent electrical loads via the ABB i-bus®. Manual operation and display of the switching state of the contacts. The 16A-AC1 device is especially suited for resistive loads.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071035S0012_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 16 A"
+  },
+  {
+    "key": 13,
+    "id": "2CDG110161R0011",
+    "title": "\r\n\tABB SA/S8.16.2.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S8.16.2.1",
+      "productId": "2CDG110161R0011",
+      "ean": "4016779877770",
+      "catalogDescription": "SA/S8.16.2.1 Switch Actuator, 8-fold, 16 A, MDRC",
+      "longDescription": "Uses potential free contacts to switch 8 independent electrical loads via the ABB i-bus®. Manual operation and display of the switching state of the contacts. The 16A-AC1 device is especially suited for resistive loads.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071017S0012_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 16 A"
+  },
+  {
+    "key": 22,
+    "id": "2CDG110138R0011",
+    "title": "\r\n\tABB SA/S12.16.6.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S12.16.6.1",
+      "productId": "2CDG110138R0011",
+      "ean": "4016779765169",
+      "catalogDescription": "SA/S12.16.6.1 Switch Actuator, 12-fold, 16/20 AX, C-Load, Current Det, MDRC",
+      "longDescription": "Uses potential free contacts to switch 12 independent electrical loads via the ABB i-bus®. Each output has an independent load current detection. Manual operation and display of the switching state of the contacts. The 16/20AX, 16A-AC3 (C-load) device is especially suited for loads with high surge currents e.g. flourescent lighting (AX) acc. EN 60669.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071247S0009_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 16/20 A"
+  },
+  {
+    "key": 6,
+    "id": "2CDG110183R0011",
+    "title": "\r\n\tABB SA/S12.6.2.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S12.6.2.1",
+      "productId": "2CDG110183R0011",
+      "ean": "4016779925150",
+      "catalogDescription": "SA/S12.6.2.1 Switch Actuator, 12-fold, 6 A, Manual Operation, MDRC",
+      "longDescription": "Uses potential free contacts to switch 12 independent electrical loads via the ABB i-bus®. Manual operation and display of the switching state of the contacts. The 6A-AC3 device is especially suited to switch resistive, inductive or capacitive loads.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071020S0013_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 6 A"
+  },
+  {
+    "key": 3,
+    "id": "2CDG110180R0011",
+    "title": "\r\n\tABB SA/S2.6.2.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S2.6.2.1",
+      "productId": "2CDG110180R0011",
+      "ean": "4016779925068",
+      "catalogDescription": "SA/S2.6.2.1 Switch Actuator, 2-fold, 6 A, Manual Operation, MDRC",
+      "longDescription": "Uses potential free contacts to switch 2 independent electrical loads via the ABB i-bus®. Manual operation and display of the switching state of the contacts. The 6A-AC3 device is especially suited to switch resistive, inductive or capacitive loads.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071018S0013_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 6 A"
+  },
+  {
+    "key": 8,
+    "id": "2CDG110156R0011",
+    "title": "\r\n\tABB SA/S4.10.2.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S4.10.2.1",
+      "productId": "2CDG110156R0011",
+      "ean": "4016779877824",
+      "catalogDescription": "SA/S4.10.2.1 Switch Actuator, 4-fold, 10 A, MDRC",
+      "longDescription": "Uses potential free contacts to switch 4 independent electrical loads via the ABB i-bus®. Manual operation and display of the switching state of the contacts. The 10AX-AC1 device is especially suited for loads with high surge currents e.g. flourescent lighting (AX) acc. EN 60669.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071030S0012_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 10 A"
+  },
+  {
+    "key": 2,
+    "id": "2CDG110154R0011",
+    "title": "\r\n\tABB SA/S12.6.1.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S12.6.1.1",
+      "productId": "2CDG110154R0011",
+      "ean": "4016779877848",
+      "catalogDescription": "SA/S12.6.1.1 Switch Actuator, 12-fold, 6 A, MDRC",
+      "longDescription": "Uses potential free contacts to switch 12 independent electrical loads via the ABB i-bus®. Every 2 contacts have a common supply phase. The 6A-AC3 device is especially suited to switch resistive, inductive or capacitive loads.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071033S0012_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 6 A"
+  },
+  {
+    "key": 9,
+    "id": "2CDG110157R0011",
+    "title": "\r\n\tABB SA/S8.10.2.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S8.10.2.1",
+      "productId": "2CDG110157R0011",
+      "ean": "4016779877817",
+      "catalogDescription": "SA/S8.10.2.1 Switch Actuator, 8-fold, 10 A, MDRC",
+      "longDescription": "Uses potential free contacts to switch 8 independent electrical loads via the ABB i-bus®. Manual operation and display of the switching state of the contacts. The 10AX-AC1 device is especially suited for loads with high surge currents e.g. flourescent lighting (AX) acc. EN 60669.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071016S0012_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 10 A"
+  },
+  {
+    "key": 7,
+    "id": "2CDG110155R0011",
+    "title": "\r\n\tABB SA/S2.10.2.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S2.10.2.1",
+      "productId": "2CDG110155R0011",
+      "ean": "4016779877831",
+      "catalogDescription": "SA/S2.10.2.1 Switch Actuator, 2-fold, 10 A, MDRC",
+      "longDescription": "Uses potential free contacts to switch 2 independent electrical loads via the ABB i-bus®. Manual operation and display of the switching state of the contacts. The 10AX device is especially suited for loads with high surge currents e.g. flourescent lighting (AX) acc. EN 60669.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071012S0012_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 10 A"
+  },
+  {
+    "key": 20,
+    "id": "2CDG110113R0011",
+    "title": "\r\n\tABB SA/S4.16.6.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S4.16.6.1",
+      "productId": "2CDG110113R0011",
+      "ean": "4016779708319",
+      "catalogDescription": "SA/S4.16.6.1 Switch Actuator, 4-fold, 16/20 AX, C-Load, Current Det, MDRC",
+      "longDescription": "Uses potential free contacts to switch 4 independent electrical loads via the ABB i-bus®. Each output has an independent load current detection. Manual operation and display of the switching state of the contacts. The 16/20AX, 16A-AC3 (C-load) device is especially suited for loads with high surge currents e.g. flourescent lighting (AX) acc. EN 60669.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071017S0010_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 16/20 A"
+  },
+  {
+    "key": 0,
+    "id": "2CDG110152R0011",
+    "title": "\r\n\tABB SA/S4.6.1.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S4.6.1.1",
+      "productId": "2CDG110152R0011",
+      "ean": "4016779877862",
+      "catalogDescription": "SA/S4.6.1.1 Switch Actuator, 4-fold, 6 A, MDRC",
+      "longDescription": "Uses potential free contacts to switch 4 independent electrical loads via the ABB i-bus®. The 6A-AC3 device is especially suited to switch resistive, inductive or capacitive loads.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071029S0012_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 6 A"
+  },
+  {
+    "key": 5,
+    "id": "2CDG110182R0011",
+    "title": "\r\n\tABB SA/S8.6.2.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S8.6.2.1",
+      "productId": "2CDG110182R0011",
+      "ean": "4016779925136",
+      "catalogDescription": "SA/S8.6.2.1 Switch Actuator, 8-fold, 6 A, Manual Operation, MDRC",
+      "longDescription": "Uses potential free contacts to switch 8 independent electrical loads via the ABB i-bus®. Manual operation and display of the switching state of the contacts. The 6A-AC3 device is especially suited to switch resistive, inductive or capacitive loads.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071001S0013_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 6 A"
+  },
+  {
+    "key": 19,
+    "id": "2CDG110112R0011",
+    "title": "\r\n\tABB SA/S2.16.6.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S2.16.6.1",
+      "productId": "2CDG110112R0011",
+      "ean": "4016779708302",
+      "catalogDescription": "SA/S2.16.6.1 Switch Actuator, 2-fold, 16/20 AX, C-Load, Current Det, MDRC",
+      "longDescription": "Uses potential free contacts to switch 2 independent electrical loads via the ABB i-bus®. Each output has an independent load current detection. Manual operation and display of the switching state of the contacts. The 16/20AX, 16A-AC3 (C-load) device is especially suited for loads with high surge currents e.g. flourescent lighting (AX) acc. EN 60669.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071016S0010_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 16/20 A"
+  },
+  {
+    "key": 4,
+    "id": "2CDG110181R0011",
+    "title": "\r\n\tABB SA/S4.6.2.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S4.6.2.1",
+      "productId": "2CDG110181R0011",
+      "ean": "4016779925099",
+      "catalogDescription": "SA/S4.6.2.1 Switch Actuator, 4-fold, 6 A, Manual Operation, MDRC",
+      "longDescription": "Uses potential free contacts to switch 4 independent electrical loads via the ABB i-bus®. Manual operation and display of the switching state of the contacts. The 6A-AC3 device is especially suited to switch resistive, inductive or capacitive loads.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071019S0013_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 6 A"
+  },
+  {
+    "key": 1,
+    "id": "2CDG110153R0011",
+    "title": "\r\n\tABB SA/S8.6.1.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S8.6.1.1",
+      "productId": "2CDG110153R0011",
+      "ean": "4016779877855",
+      "catalogDescription": "SA/S8.6.1.1 Switch Actuator, 8-fold, 6 A, MDRC",
+      "longDescription": "Uses potential free contacts to switch 8 independent electrical loads via the ABB i-bus®. Every 2 contacts have a common supply phase. The 6A-AC3 device is especially suited to switch resistive, inductive or capacitive loads.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071032S0012_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 6 A"
+  },
+  {
+    "key": 16,
+    "id": "2CDG110133R0011",
+    "title": "\r\n\tABB SA/S4.16.5.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S4.16.5.1",
+      "productId": "2CDG110133R0011",
+      "ean": "4016779708289",
+      "catalogDescription": "SA/S4.16.5.1 Switch Actuator, 4-fold, 16/20 AX, C-Load, MDRC",
+      "longDescription": "Uses potential free contacts to switch 4 independent electrical loads via the ABB i-bus®. Manual operation and display of the switching state of the contacts. The 16/20AX, 16A-AC3 (C-load) device is especially suited for loads with high surge currents e.g. flourescent lighting (AX) acc. EN 60669.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071021S0011_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 16/20 A"
+  },
+  {
+    "key": 21,
+    "id": "2CDG110114R0011",
+    "title": "\r\n\tABB SA/S8.16.6.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S8.16.6.1",
+      "productId": "2CDG110114R0011",
+      "ean": "4016779708326",
+      "catalogDescription": "SA/S8.16.6.1 Switch Actuator, 8-fold, 16/20 AX, C-Load, Current Det, MDRC",
+      "longDescription": "Uses potential free contacts to switch 8 independent electrical loads via the ABB i-bus®. Each output has an independent load current detection. Manual operation and display of the switching state of the contacts. The 16/20AX, 16A-AC3 (C-load) device is especially suited for loads with high surge currents e.g. flourescent lighting (AX) acc. EN 60669.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071006S0010_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 16/20 A"
+  },
+  {
+    "key": 12,
+    "id": "2CDG110160R0011",
+    "title": "\r\n\tABB SA/S4.16.2.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S4.16.2.1",
+      "productId": "2CDG110160R0011",
+      "ean": "4016779877787",
+      "catalogDescription": "SA/S4.16.2.1 Switch Actuator, 4-fold, 16 A, MDRC",
+      "longDescription": "Uses potential free contacts to switch 4 independent electrical loads via the ABB i-bus®. Manual operation and display of the switching state of the contacts. The 16A-AC1 device is especially suited for resistive loads.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071031S0012_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 16 A"
+  },
+  {
+    "key": 10,
+    "id": "2CDG110158R0011",
+    "title": "\r\n\tABB SA/S12.10.2.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S12.10.2.1",
+      "productId": "2CDG110158R0011",
+      "ean": "4016779877800",
+      "catalogDescription": "SA/S12.10.2.1 Switch Actuator, 12-fold, 10 A, MDRC",
+      "longDescription": "Uses potential free contacts to switch 12 independent electrical loads via the ABB i-bus®. Manual operation and display of the switching state of the contacts. The 10AX device is especially suited for loads with high surge currents e.g. flourescent lighting (AX) acc. EN 60669.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071034S0012_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 10 A"
+  },
+  {
+    "key": 15,
+    "id": "2CDG110132R0011",
+    "title": "\r\n\tABB SA/S2.16.5.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S2.16.5.1",
+      "productId": "2CDG110132R0011",
+      "ean": "4016779708272",
+      "catalogDescription": "SA/S2.16.5.1 Switch Actuator, 2-fold, 16/20 AX, C-Load, MDRC",
+      "longDescription": "Uses potential free contacts to switch 2 independent electrical loads via the ABB i-bus®. Manual operation and display of the switching state of the contacts. The 16/20AX, 16A-AC3 (C-load) device is especially suited for loads with high surge currents e.g. flourescent lighting (AX) acc. EN 60669.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071020S0011_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 16/20 A"
+  },
+  {
+    "key": 18,
+    "id": "2CDG110137R0011",
+    "title": "\r\n\tABB SA/S12.16.5.1\r\n",
+    "generalInformation": {
+      "extendedProductType": "SA/S12.16.5.1",
+      "productId": "2CDG110137R0011",
+      "ean": "4016779711074",
+      "catalogDescription": "SA/S12.16.5.1 Switch Actuator, 12-fold, 16/20 AX, C-Load, MDRC",
+      "longDescription": "Uses potential free contacts to switch 12 independent electrical loads via the ABB i-bus®. Manual operation and display of the switching state of the contacts. The 16/20AX, 16A-AC3 (C-load) device is especially suited for loads with high surge currents e.g. flourescent lighting (AX) acc. EN 60669.",
+      "imageUrl": "https://cdn.productimages.abb.com/2CDC071001S0011_720x540.jpg"
+    },
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » KNX » Standard Outputs » Switch Actuators 16/20 A"
+  }
+]
