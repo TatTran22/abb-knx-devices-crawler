@@ -8,8 +8,9 @@ const xlsxFile = require('read-excel-file/node');
 let orderCode = [];
 let products = [];
 
-xlsxFile('./Solution Center 12.04.2019.xlsx').then((rows) => {
+xlsxFile('./excel_data/Solution Center 12.04.2019.xlsx').then((rows) => {
   rows.map((col) => {
+    // nếu cột A và cột D không trống thì lấy giá trị ID và miêu tả
     if (!/\s/.test(col[0]) && (col[0] || col[3])) {
       let product = {
         id: col[3],
@@ -68,7 +69,7 @@ const crawlData = async (id, index) => {
 
       console.log(productsFileName);
 
-      fs.writeFile(`./data/${productsFileName}`, data, (err) => {
+      fs.writeFile(`./crawled_data/${productsFileName}`, data, (err) => {
         if (err) throw err;
         console.log('Data written to file');
       });
