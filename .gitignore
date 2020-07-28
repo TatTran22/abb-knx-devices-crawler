@@ -11,6 +11,7 @@
 
 # production
 /build
+/excel_data
 
 # misc
 .DS_Store
