@@ -3,38 +3,47 @@ const cheerio = require('cheerio');
 const rp = require('request-promise');
 const URL = require('url-parse');
 const fs = require('fs');
-const xlsxFile = require('read-excel-file/node');
+const excel = require('exceljs');
+let products_init = [];
 
-let orderCode = [];
+const workbook = new excel.Workbook();
 let products = [];
+const path = './excel_data/Solution Center 12.04.2019.xlsx';
 
-xlsxFile('./excel_data/Solution Center 12.04.2019.xlsx').then((rows) => {
-  rows.map((col) => {
-    // nếu cột A và cột D không trống thì lấy giá trị ID và miêu tả
-    if (!/\s/.test(col[0]) && (col[0] || col[3])) {
-      let product = {
-        id: col[3],
-        vnDescription: col[4],
-      };
+const getData = function () {
+  workbook.xlsx
+    .readFile(path)
+    .then((result) => {
+      const worksheet = result.worksheets[0];
 
-      orderCode.push(product);
-    }
-  });
+      worksheet.eachRow(function (row, rowNumber) {
+        if (row.getCell(1) && !/\s/.test(row.getCell(1))) {
+          let product = {
+            id: rowNumber,
+            orderCode: row.getCell(1).value,
+            description_vn: row.getCell(5).value,
+            price_vn_2019: row.getCell(6).value.result,
+            co: row.getCell(11).value,
+            origin: row.getCell(12).value,
+            // minimumOrder: row.getCell(13).value,
+            unit_vn: row.getCell(14).value,
+          };
+          products_init.push(product);
+        }
+      });
+    })
+    .then(() => {
+      products_init.forEach((el, idx) => {
+        crawlData(el.orderCode, idx);
+      });
+    })
 
-  // let data = JSON.stringify(orderCode, null, 2);
-  // let productsFileName = `ABB-KNX-Products_VN.json`;
+    .catch((err) => {
+      console.log(err);
+    });
+};
 
-  // console.log(productsFileName);
-
-  // fs.writeFile(`./data/${productsFileName}`, data, (err) => {
-  //   if (err) throw err;
-  //   console.log('Data written to file');
-  // });
-});
-
-console.log(`Number of order code: ${orderCode.length}`);
-
-const crawlData = async (id, index) => {
+const crawlData = (id, index) => {
   let options = {
     uri: `https://new.abb.com/products/${id}/`,
     transform: function (body) {
@@ -45,24 +54,29 @@ const crawlData = async (id, index) => {
   rp(options)
     .then(function ($) {
       productInformation = {
-        key: index,
         id: id,
         title: $('title').text(),
-        generalInformation: {
-          extendedProductType: $("dd[data-code='ExtendedProductType']").text(),
-          productId: $("dd[data-code='ProductId']").text(),
-          ean: $("dd[data-code='Ean']").first().text(),
-          catalogDescription: $("dd[data-code='CatalogDescription']").text(),
-          longDescription: $("dd[data-code='LongDescription']").text(),
-          imageUrl: $("meta[itemprop='image']").first().attr('content'),
-        },
+        extendedProductType: $("dd[data-code='ExtendedProductType']").text(),
+        orderCode: $("dd[data-code='ProductId']").text(),
+        ean: $("dd[data-code='Ean']").first().text(),
+        catalogDescription: $("dd[data-code='CatalogDescription']").text(),
+        longDescription: $("dd[data-code='LongDescription']").text(),
+        imageUrl: $("meta[itemprop='image']").first().attr('content'),
+        netLength: $("dd[data-code='ProductNetDepth'] span").text(),
+        netHeight: $("dd[data-code='ProductNetHeight'] span").text(),
+        netWidth: $("dd[data-code='ProductNetWidth'] span").text(),
+        netWeight: $("dd[data-code='ProductNetWeight'] span").text(),
+        netLengthUnit: $("dd[data-code='ProductNetDepth']").text(),
+        netWeightUnit: $("dd[data-code='ProductNetWeight']").text(),
+        minimumOrderQuantity: $("dd[data-code='MinimumOrderQuantity']").text(),
+
         categories: $('.categories-section-wrapper li').text(),
       };
 
       products.push(productInformation);
-      // return products;
       console.log(`Current index: ${index}`);
-
+    })
+    .then(() => {
       // console.log(products);
       let data = JSON.stringify(products, null, 2);
       let productsFileName = `ABB-KNX-Products.json`;
@@ -74,34 +88,29 @@ const crawlData = async (id, index) => {
         console.log('Data written to file');
       });
     })
+
     .catch(function (err) {
       // console.log(err);
     });
 };
 
-const getData = async () => {
-  return Promise.all(orderCode.map((item, i) => crawlData(item.id, i)));
-};
+getData();
 
-getData().then((data) => {
-  console.log(data);
-});
+// function addZero(x, n) {
+//   while (x.toString().length < n) {
+//     x = '0' + x;
+//   }
+//   return x;
+// }
 
-function addZero(x, n) {
-  while (x.toString().length < n) {
-    x = '0' + x;
-  }
-  return x;
-}
-
-function getDateTime() {
-  let d = new Date();
-  let h = addZero(d.getHours(), 2);
-  let m = addZero(d.getMinutes(), 2);
-  let s = addZero(d.getSeconds(), 2);
-  let ms = addZero(d.getMilliseconds(), 3);
-  let x = h + ':' + m + ':' + s + ':' + ms;
-  let z = '__' + h + '-' + m + '-' + s + '-' + ms;
-  console.log(x);
-  return z;
-}
+// function getDateTime() {
+//   let d = new Date();
+//   let h = addZero(d.getHours(), 2);
+//   let m = addZero(d.getMinutes(), 2);
+//   let s = addZero(d.getSeconds(), 2);
+//   let ms = addZero(d.getMilliseconds(), 3);
+//   let x = h + ':' + m + ':' + s + ':' + ms;
+//   let z = '__' + h + '-' + m + '-' + s + '-' + ms;
+//   console.log(x);
+//   return z;
+// }

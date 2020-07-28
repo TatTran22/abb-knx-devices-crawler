@@ -3,7 +3,7 @@ const fs = require('fs');
 
 let orderCode = [];
 
-xlsxFile('./Solution Center 12.04.2019.xlsx').then((rows) => {
+xlsxFile('./excel_data/Solution Center 12.04.2019.xlsx').then((rows) => {
   rows.map((col) => {
     if (!/\s/.test(col[0]) && (col[0] || col[3])) {
       let product = {
@@ -19,7 +19,7 @@ xlsxFile('./Solution Center 12.04.2019.xlsx').then((rows) => {
 
   console.log(productsFileName);
 
-  fs.writeFile(`./data/${productsFileName}`, data, (err) => {
+  fs.writeFile(`./crawled_data/${productsFileName}`, data, (err) => {
     if (err) throw err;
     console.log('Data written to file');
   });
