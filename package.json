@@ -2,9 +2,12 @@
   "name": "simple-webcrawler-javascript",
   "version": "0.0.0",
   "description": "A simple webcrawler written in JavaScript",
-  "main": "crawler.js",
+  "main": "abb.js",
   "author": "Stephen",
   "license": "ISC",
+  "scripts": {
+    "start": "node abb.js"
+  },
   "dependencies": {
     "axios": "^0.19.2",
     "cheerio": "^0.22.0",

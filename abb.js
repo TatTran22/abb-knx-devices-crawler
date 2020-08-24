@@ -2,34 +2,13 @@ const fs = require('fs');
 const request = require('request');
 const cheerio = require('cheerio');
 const rp = require('request-promise');
-// const URL = require('url-parse');
-// const fs = require('fs');
-// const excel = require('exceljs');
-// a = () => {
-//   for (let i = 0; i < 100; i++) {
-//     let el = document.querySelector(`#productBrowserAdditionalInfo${i}`);
-//     let ela = document.querySelectorAll('td.pb_IdColumn a')[i];
-//     if (el) {
-//       products.push(el.textContent);
-//     } else {
-//       products.push(ela.textContent);
-//     }
-//   }
-// };
-let knx = require('./ABB-KNX-Products-ID.json');
+let knx = require('./ABB-FH-Products-ID.json');
 
 const delayWriteFile = 60000; //60 second
 const delayLoad = 10000;
 let products_init = [];
 let products = [];
-// fs.readFile('./ABB-KNX-Products-ID.json', (err, data) => {
-//   if (err) throw err;
-//   knx = JSON.parse(data);
-// }).then(() => {
-// console.log(knx);
-// });
 
-// console.log('This is after the read call');
 let init = 500;
 let t0 = process.hrtime();
 craw(init);
@@ -40,9 +19,9 @@ function craw(idx) {
       console.log(idx);
       crawlData(knx[idx], idx);
       idx++;
-      let productsFileName = `./crawled_data/ABB-KNX-Products_${idx - 100}-${idx}.json`;
-      if (idx < knx.length) {
-        if (idx % 100 == 0 || idx == knx.length) {
+      let productsFileName = `./crawled_data/ABB-FH-Products_${init}-${idx}.json`;
+      if (idx <= knx.length) {
+        if (idx == knx.length || idx == init + 100) {
           // console.log(products);
 
           let data = JSON.stringify(products, null, 2);
@@ -62,17 +41,6 @@ function craw(idx) {
           );
         } else craw(idx);
       } else {
-        // let data = JSON.stringify(products, null, 2);
-        // setTimeout(
-        //   () => {
-        //     fs.writeFile(productsFileName, data, (err) => {
-        //       if (err) throw err;
-        //       console.log(`Numer of products: ${products.length}`);
-        //       console.log(`Data written to file: ${productsFileName}`);
-        //     });
-        //   },
-        //   delayWriteFile ? delayWriteFile : 30000
-        // );
       }
     },
     idx % 100 == 0 ? 0 : delayLoad
@@ -134,19 +102,3 @@ const crawlData = (id, index) => {
       console.log(err);
     });
 };
-
-// setTimeout(function () {
-//   // console.log(products);
-//   let data = JSON.stringify(products, null, 2);
-//   let productsFileName = `ABB-KNX-Products.json`;
-
-//   console.log(productsFileName);
-
-//   fs.writeFile(`./crawled_data/${productsFileName}`, data, (err) => {
-//     if (err) throw err;
-//     console.log(`Numer of products: ${products.length}`);
-//     console.log('Data written to file');
-//   });
-// }, delayWriteFile);
-
-// RUN
