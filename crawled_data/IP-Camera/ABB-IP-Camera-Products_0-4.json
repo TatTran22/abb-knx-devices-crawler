@@ -1,0 +1,71 @@
+[
+  {
+    "id": "2TMA500010W0001",
+    "title": "ABB C81011-W",
+    "extendedProductType": "C81011-W",
+    "orderCode": "2TMA500010W0001",
+    "ean": "6955891808836",
+    "catalogDescription": "C81011-W Outdoor IP camera, 4MP, Dom",
+    "longDescription": "C81011-W,IP Camera,CAM,EU,White,ABB,Outdoor IPC, 4MP, Dom",
+    "imageUrl": [
+      "https://cdn.productimages.abb.com/C81011-W_720x540.png"
+    ],
+    "netLength": "0.13",
+    "netHeight": "0.112",
+    "netWidth": "0.13",
+    "netWeight": "0.73",
+    "netLengthUnit": "m",
+    "netWeightUnit": "kg",
+    "minimumOrderQuantity": "1",
+    "unit": "piece",
+    "documentLink": [],
+    "originalLink": "https://new.abb.com/products/2TMA500010W0001/",
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » Video Surveillance Systems » VideoControl » IP Cameras"
+  },
+  {
+    "id": "2TMA500010W0005",
+    "title": "ABB C81021-W",
+    "extendedProductType": "C81021-W",
+    "orderCode": "2TMA500010W0005",
+    "ean": "6955891808843",
+    "catalogDescription": "C81021-W Outdoor IP camera, 4MP, Mini Dom",
+    "longDescription": "C81021-W,IP Camera,CAM,EU,White,ABB,Outdoor IPC, 4MP, Mini Dom",
+    "imageUrl": [
+      "https://cdn.productimages.abb.com/C81021-W_720x540.png"
+    ],
+    "netLength": "0.11",
+    "netHeight": "0.085",
+    "netWidth": "0.11",
+    "netWeight": "0.412",
+    "netLengthUnit": "m",
+    "netWeightUnit": "kg",
+    "minimumOrderQuantity": "1",
+    "unit": "piece",
+    "documentLink": [],
+    "originalLink": "https://new.abb.com/products/2TMA500010W0005/",
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » Video Surveillance Systems » VideoControl » IP Cameras"
+  },
+  {
+    "id": "2TMA500010W0009",
+    "title": "ABB C81031-W",
+    "extendedProductType": "C81031-W",
+    "orderCode": "2TMA500010W0009",
+    "ean": "6955891808850",
+    "catalogDescription": "C81031-W Outdoor IP camera, 4MP, Bullet",
+    "longDescription": "C81031-W,IP Camera,CAM,EU,White,ABB,Outdoor IPC, 4MP, Bullet",
+    "imageUrl": [
+      "https://cdn.productimages.abb.com/C81031-W_720x540.png"
+    ],
+    "netLength": "0.072",
+    "netHeight": "0.233",
+    "netWidth": "0.072",
+    "netWeight": "0.724",
+    "netLengthUnit": "m",
+    "netWeightUnit": "kg",
+    "minimumOrderQuantity": "1",
+    "unit": "piece",
+    "documentLink": [],
+    "originalLink": "https://new.abb.com/products/2TMA500010W0009/",
+    "categories": "Products » Low Voltage Products and Systems » Home and Building Automation » Video Surveillance Systems » VideoControl » IP Cameras"
+  }
+]
