@@ -2,9 +2,9 @@ const fs = require('fs');
 const request = require('request');
 const cheerio = require('cheerio');
 const rp = require('request-promise');
-let productsId = require('./products_id/ABB-MCBs-Products-ID.json');
+let productsId = require('./products_id/ABB-KNX-Products-ID.json');
 
-const delayWriteFile = 30000; //60 second
+const delayWriteFile = 10000;
 const delayLoad = 10000;
 let products_init = [];
 let products = [];
@@ -19,7 +19,7 @@ function craw(idx) {
       console.log(idx);
       crawlData(productsId[idx].trim(), idx);
       idx++;
-      let productsFileName = `./crawled_data/Miniature-Circuit-Breakers/ABB-MCBs-Products_${init}-${idx - 1}.json`;
+      let productsFileName = `./crawled_data/KNX/ABB-KNX-Products_${init}-${idx - 1}.json`;
       if (idx <= productsId.length) {
         if (idx === productsId.length || idx === init + 100) {
           // console.log(products);
@@ -43,7 +43,7 @@ function craw(idx) {
       } else {
       }
     },
-    idx % 100 === 0 ? 0 : delayLoad
+    idx === init ? 0 : delayLoad
   );
 }
 
@@ -71,7 +71,7 @@ const crawlData = (id, index) => {
       //   console.log($('.document-link')[i].baseURI);
       // }
       productInformation = {
-        id: id,
+        // id: id,
         title: $('title').text().trim(),
         generalInformation: {
           name: $("dd[data-code='ExtendedProductType']").text().trim(),
